@@ -1,0 +1,33 @@
+{
+  "name": "algos",
+  "version": "1.0.0",
+  "description": "Sandboxm for remembering CS basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradodarb/algos.git"
+  },
+  "author": "Brad Murry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradodarb/algos/issues"
+  },
+  "homepage": "https://github.com/bradodarb/algos#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "tsd": "^0.6.5",
+    "typings": "^2.1.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  }
+}
